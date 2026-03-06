@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/images/favicon.ico">
+
+  <!-- Primary Meta Tags -->
+  <title>StartUpX – Modern Startup & SaaS Landing Page Template</title>
+  <meta name="title" content="StartUpX – Modern Startup & SaaS Landing Page Template">
+  <meta name="description"
+    content="StartUpX is a clean, modern and fully responsive startup & SaaS landing page template built with Bootstrap 5, SCSS and JavaScript. Perfect for startups, tech companies, SaaS products and digital agencies.">
+  <meta name="keywords"
+    content="startup template, saas landing page, bootstrap 5 template, modern landing page, tech startup website, creative market template, business template">
+  <meta name="author" content="PriHarsh Design">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="StartUpX – Modern Startup & SaaS Landing Page Template">
+  <meta property="og:description"
+    content="Clean and modern Bootstrap 5 startup landing page template for SaaS, tech startups and digital agencies. Fully responsive and easy to customize.">
+  <meta property="og:image" content="assets/images/preview.jpg">
+  <meta property="og:site_name" content="PriHarsh Design">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="StartUpX – Modern Startup & SaaS Landing Page Template">
+  <meta property="twitter:description"
+    content="Modern & responsive startup landing page template built with Bootstrap 5 & SCSS. Perfect for SaaS and tech businesses.">
+  <meta property="twitter:image" content="assets/images/preview.jpg">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- RemixIcon -->
+  <link href="assets/css/remixicon.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+  <!-- ====== HEADER ====== -->
+  <header class="startupx-header" id="mainHeader">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg" id="mainNavbar">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand logo" href="/">
+            <div class="logo-icon">
+              <svg width="28" height="32" viewBox="0 0 28 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 0L28 7.77778V23.3333L14 31.1111L0 23.3333V7.77778L14 0Z" fill="#7C3AED" />
+                <path d="M13.9999 7L22.5554 12.3472V18.7639L13.9999 24.1111L5.44434 18.7639V12.3472L13.9999 7Z"
+                  fill="white" />
+              </svg>
+            </div>
+            <span class="logo-text">StartUp<span class="logo-x">X</span></span>
+          </a>
+
+          <!-- Desktop Navigation - Bootstrap Collapse (DESKTOP ONLY) -->
+          <div class="collapse navbar-collapse d-none d-lg-block" id="navbarContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#success">Success</a></li>
+              <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+            </ul>
+          </div>
+
+          <!-- Mobile Toggle Button - CUSTOM JS -->
+          <button class="mobile-toggle" id="mobileToggle">
+            <i class="ri-menu-line"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ====== CUSTOM MOBILE MENU - FULL WIDTH ====== -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-header">
+        <div class="logo">
+          <div class="logo-icon">
+            <svg width="32" height="32" viewBox="0 0 32 32">
+              <path d="M16 2L30 10V26L16 34L2 26V10L16 2Z" fill="#7C3AED" />
+              <path d="M16 12L24 17V23L16 28L8 23V17L16 12Z" fill="white" />
+            </svg>
+          </div>
+          <span>StartUp<span class="logo-x">X</span></span>
+        </div>
+        <button class="mobile-close" id="mobileClose">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
+
+      <div class="mobile-menu-body">
+        <ul class="mobile-nav">
+          <li class="mobile-nav-item"><a class="nav-link" href="#home"><i class="ri-home-line"></i>Home</a></li>
+          <li class="mobile-nav-item"><a class="nav-link" href="#features"><i class="ri-rocket-line"></i>Features</a>
+          </li>
+          <li class="mobile-nav-item"><a class="nav-link" href="#templates"><i class="ri-layout-line"></i>Templates</a>
+          </li>
+          <li class="mobile-nav-item"><a class="nav-link" href="#pricing"><i class="ri-price-tag-3-line"></i>Pricing</a>
+          </li>
+          <li class="mobile-nav-item"><a class="nav-link" href="#success"><i class="ri-trophy-line"></i>Success</a></li>
+          <li class="mobile-nav-item"><a class="nav-link" href="#resources"><i
+                class="ri-book-open-line"></i>Resources</a></li>
+          <li class="mobile-nav-item"><a class="nav-link" href="#team"><i class="ri-team-line"></i>Team</a></li>
+          <li class="mobile-nav-item"><a class="nav-link" href="#contact"><i
+                class="ri-customer-service-line"></i>Contact</a></li>
+        </ul>
+
+        <div class="mobile-actions">
+          <a href="#" class="btn btn-outline w-100"><i class="ri-user-line"></i>Sign In</a>
+          <a href="#" class="btn btn-primary w-100"><i class="ri-rocket-2-line"></i>Get Started Free</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ====== HERO SECTION ====== -->
+  <section class="hero" id="home">
+    <!-- Hero Background -->
+    <div class="hero-bg">
+      <div class="gradient-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="orb orb-4"></div>
+      </div>
+      <div class="grid-lines"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-wrapper">
+        <div class="hero-content">
+          <!-- Hero Badge -->
+          <div class="hero-badge">
+            <span class="badge-icon">
+              <i class="ri-rocket-2-fill"></i>
+            </span>
+            <span class="badge-text">🚀 Join 10,000+ Successful Startups</span>
+          </div>
+
+          <!-- Hero Title -->
+          <h1 class="hero-title">
+            Build Your
+            <span class="gradient-text">Dream Startup</span>
+            In Weeks, Not Months
+          </h1>
+
+          <!-- Hero Description -->
+          <p class="hero-description">
+            StartUpX gives you everything you need to launch, grow, and scale your startup.
+            From idea validation to funding, we've got you covered with AI-powered tools
+            and expert mentorship.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="hero-cta">
+            <a href="#" class="btn btn-primary">
+              <i class="ri-play-circle-line"></i>
+              Start Free Trial
+              <span class="cta-arrow">→</span>
+            </a>
+            <a href="#" class="btn btn-outline">
+              <i class="ri-video-line"></i>
+              Watch Demo
+            </a>
+          </div>
+
+          <!-- Hero Stats -->
+          <div class="hero-stats">
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="ri-trophy-line"></i>
+              </div>
+              <div class="stat-content">
+                <div class="stat-number">94%</div>
+                <div class="stat-label">Success Rate</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="ri-rocket-2-line"></i>
+              </div>
+              <div class="stat-content">
+                <div class="stat-number">10K+</div>
+                <div class="stat-label">Startups Launched</div>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">
+                <i class="ri-money-dollar-circle-line"></i>
+              </div>
+              <div class="stat-content">
+                <div class="stat-number">$2B+</div>
+                <div class="stat-label">Funding Raised</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual -->
+        <div class="hero-visual">
+          <div class="dashboard-preview">
+            <!-- Dashboard Header -->
+            <div class="dashboard-header">
+              <div class="dashboard-title">
+                <div class="title-icon">
+                  <i class="ri-dashboard-3-line"></i>
+                </div>
+                <div class="title-text">
+                  <div class="main-title">Startup Dashboard</div>
+                  <div class="sub-title">Live Analytics</div>
+                </div>
+              </div>
+              <div class="dashboard-status">
+                <span class="status-dot"></span>
+                <span class="status-text">Live</span>
+              </div>
+            </div>
+
+            <!-- Dashboard Stats -->
+            <div class="dashboard-stats">
+              <div class="stat-item">
+                <div class="stat-label">Monthly Revenue</div>
+                <div class="stat-value">$45.2K</div>
+                <div class="stat-trend up">
+                  <i class="ri-arrow-up-line"></i>
+                  +28%
+                </div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-label">User Growth</div>
+                <div class="stat-value">2.8K</div>
+                <div class="stat-trend up">
+                  <i class="ri-arrow-up-line"></i>
+                  +45%
+                </div>
+              </div>
+            </div>
+
+            <!-- Dashboard Chart -->
+            <div class="dashboard-chart">
+              <div class="chart-header">
+                <div class="chart-title">Revenue Growth</div>
+                <div class="chart-period">Last 6 months</div>
+              </div>
+              <div class="chart-bars">
+                <div class="chart-bar" style="height: 60%">
+                  <div class="bar-tooltip">Jan: $12K</div>
+                </div>
+                <div class="chart-bar" style="height: 75%">
+                  <div class="bar-tooltip">Feb: $15K</div>
+                </div>
+                <div class="chart-bar" style="height: 85%">
+                  <div class="bar-tooltip">Mar: $17K</div>
+                </div>
+                <div class="chart-bar" style="height: 70%">
+                  <div class="bar-tooltip">Apr: $14K</div>
+                </div>
+                <div class="chart-bar" style="height: 90%">
+                  <div class="bar-tooltip">May: $18K</div>
+                </div>
+                <div class="chart-bar" style="height: 95%">
+                  <div class="bar-tooltip">Jun: $19K</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dashboard Notifications -->
+            <div class="dashboard-notifications">
+              <div class="notification">
+                <i class="ri-checkbox-circle-fill success"></i>
+                <span>Pitch Deck Completed</span>
+              </div>
+              <div class="notification">
+                <i class="ri-funds-line primary"></i>
+                <span>$500K Funding Secured</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating Elements -->
+          <div class="floating-element element-1">
+            <i class="ri-team-line"></i>
+            <span>Team +12</span>
+          </div>
+          <div class="floating-element element-2">
+            <i class="ri-trending-up-line"></i>
+            <span>Growth ↑</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== SUCCESS STORIES SECTION ====== -->
+  <section class="success-stories" id="success">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header">
+        <div class="section-badge">
+          <span class="badge-icon">
+            <i class="ri-trophy-fill"></i>
+          </span>
+          <span class="badge-text">Real Success Stories</span>
+        </div>
+
+        <h2 class="section-title">
+          From Idea to
+          <span class="gradient-text">Multi-Million Dollar</span>
+          Exits
+        </h2>
+
+        <p class="section-description">
+          See how startups like yours achieved extraordinary success with StartUpX.
+        </p>
+      </div>
+
+      <!-- Success Stories Grid (col-6 layout) -->
+      <div class="stories-grid col-6-layout">
+        <!-- Story 1 - Left Column (col-6) -->
+        <div class="story-card">
+          <div class="story-content">
+            <div class="story-badge">
+              <i class="ri-rocket-2-fill"></i>
+              Rapid Growth
+            </div>
+
+            <h3 class="story-title">0 to 1M Users in 9 Months</h3>
+
+            <div class="story-quote">
+              <i class="ri-double-quotes-l"></i>
+              <p>"The growth tools and investor network helped us achieve explosive user growth. We're now expanding
+                globally with over 1M active users."</p>
+            </div>
+
+            <div class="story-details">
+              <div class="story-author">
+                <div class="author-avatar">
+                  <img src="assets/images/stories/1.webp" alt="Sarah Johnson">
+                </div>
+                <div class="author-info">
+                  <div class="author-name">Sarah Johnson</div>
+                  <div class="author-role">Founder & CEO, HealthTrack</div>
+                </div>
+              </div>
+
+              <div class="story-metrics">
+                <div class="metric">
+                  <div class="metric-value">1M+</div>
+                  <div class="metric-label">Active Users</div>
+                </div>
+                <div class="metric">
+                  <div class="metric-value">9</div>
+                  <div class="metric-label">Months</div>
+                </div>
+                <div class="metric">
+                  <div class="metric-value">$8M</div>
+                  <div class="metric-label">Series A</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="story-timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-date">Jan 2023</div>
+                  <div class="timeline-title">Joined StartUpX</div>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-date">Apr 2023</div>
+                  <div class="timeline-title">Launched MVP</div>
+                </div>
+              </div>
+              <div class="timeline-item active">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-date">Sep 2023</div>
+                  <div class="timeline-title">Reached 1M Users</div>
+                </div>
+              </div>
+            </div>
+
+            <button class="story-cta">
+              <i class="ri-play-circle-line"></i>
+              Watch Success Story
+            </button>
+          </div>
+        </div>
+
+        <!-- Story 2 - Right Column (col-6) -->
+        <div class="story-card">
+          <div class="story-content">
+            <div class="story-badge">
+              <i class="ri-global-fill"></i>
+              Global Expansion
+            </div>
+
+            <h3 class="story-title">From Local Startup to 30 Countries</h3>
+
+            <div class="story-quote">
+              <i class="ri-double-quotes-l"></i>
+              <p>"StartUpX's localization and compliance tools made international expansion seamless. We're now
+                operating in 30 countries with 300% revenue growth."</p>
+            </div>
+
+            <div class="story-details">
+              <div class="story-author">
+                <div class="author-avatar">
+                  <img src="assets/images/stories/2.webp" alt="Marcus Rodriguez">
+                </div>
+                <div class="author-info">
+                  <div class="author-name">Marcus Rodriguez</div>
+                  <div class="author-role">CEO, MarketExpand</div>
+                </div>
+              </div>
+
+              <div class="story-metrics">
+                <div class="metric">
+                  <div class="metric-value">30</div>
+                  <div class="metric-label">Countries</div>
+                </div>
+                <div class="metric">
+                  <div class="metric-value">300%</div>
+                  <div class="metric-label">Revenue Growth</div>
+                </div>
+                <div class="metric">
+                  <div class="metric-value">$25M</div>
+                  <div class="metric-label">Valuation</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="story-timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-date">Mar 2022</div>
+                  <div class="timeline-title">Local Launch</div>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-date">Dec 2022</div>
+                  <div class="timeline-title">10 Countries</div>
+                </div>
+              </div>
+              <div class="timeline-item active">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <div class="timeline-date">Jun 2023</div>
+                  <div class="timeline-title">30 Countries Reached</div>
+                </div>
+              </div>
+            </div>
+
+            <button class="story-cta">
+              <i class="ri-article-line"></i>
+              Read Case Study
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== RESOURCES SECTION ====== -->
+  <section class="resources" id="resources">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header">
+        <div class="section-badge">
+          <span class="badge-icon">
+            <i class="ri-book-open-fill"></i>
+          </span>
+          <span class="badge-text">Learning Resources</span>
+        </div>
+
+        <h2 class="section-title">
+          Everything You Need to
+          <span class="gradient-text">Succeed</span>
+        </h2>
+
+        <p class="section-description">
+          Free guides, tools, and expert advice to help you build, launch, and scale your startup.
+        </p>
+      </div>
+
+      <!-- Resources Tabs - Bootstrap Style -->
+      <div class="resources-tabs">
+        <!-- Bootstrap Nav Tabs -->
+        <ul class="nav nav-tabs justify-content-center mb-4" id="resourcesTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="guides-tab" data-bs-toggle="tab" data-bs-target="#guides" type="button"
+              role="tab" aria-controls="guides" aria-selected="true">
+              <i class="ri-guide-line me-2"></i>
+              Guides
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tools-tab" data-bs-toggle="tab" data-bs-target="#tools" type="button"
+              role="tab" aria-controls="tools" aria-selected="false">
+              <i class="ri-tools-line me-2"></i>
+              Free Tools
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="templates-tab" data-bs-toggle="tab" data-bs-target="#templates" type="button"
+              role="tab" aria-controls="templates" aria-selected="false">
+              <i class="ri-file-copy-line me-2"></i>
+              Templates
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="community-tab" data-bs-toggle="tab" data-bs-target="#community" type="button"
+              role="tab" aria-controls="community" aria-selected="false">
+              <i class="ri-community-line me-2"></i>
+              Community
+            </button>
+          </li>
+        </ul>
+
+        <!-- Bootstrap Tab Content -->
+        <div class="tab-content" id="resourcesTabContent">
+          <!-- Guides Tab -->
+          <div class="tab-pane fade show active" id="guides" role="tabpanel" aria-labelledby="guides-tab" tabindex="0">
+            <div class="row g-4">
+              <!-- Guide 1 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="resource-header">
+                    <div class="resource-icon">
+                      <i class="ri-rocket-2-line"></i>
+                    </div>
+                    <div class="resource-badge">
+                      <span class="badge bg-warning me-1">Popular</span>
+                      <span class="badge bg-success">Free</span>
+                    </div>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Startup Launch Checklist</h3>
+                    <p class="resource-description">
+                      Step-by-step guide to launch your startup in 30 days. Covers everything from idea validation to
+                      launch.
+                    </p>
+
+                    <div class="resource-meta">
+                      <div class="meta-item">
+                        <i class="ri-time-line"></i>
+                        <span>45 min read</span>
+                      </div>
+                      <div class="meta-item">
+                        <i class="ri-download-line"></i>
+                        <span>12K downloads</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="resource-footer">
+                    <a href="#" class="resource-cta">
+                      <i class="ri-download-line"></i>
+                      Download PDF
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Guide 2 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="resource-header">
+                    <div class="resource-icon">
+                      <i class="ri-funds-line"></i>
+                    </div>
+                    <div class="resource-badge">
+                      <span class="badge bg-danger">New</span>
+                    </div>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Investor Pitch Guide</h3>
+                    <p class="resource-description">
+                      How to create a compelling pitch deck that gets funding. Includes real examples from funded
+                      startups.
+                    </p>
+
+                    <div class="resource-meta">
+                      <div class="meta-item">
+                        <i class="ri-time-line"></i>
+                        <span>60 min read</span>
+                      </div>
+                      <div class="meta-item">
+                        <i class="ri-download-line"></i>
+                        <span>8K downloads</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="resource-footer">
+                    <a href="#" class="resource-cta">
+                      <i class="ri-book-open-line"></i>
+                      Read Online
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Guide 3 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="resource-header">
+                    <div class="resource-icon">
+                      <i class="ri-bar-chart-2-line"></i>
+                    </div>
+                    <div class="resource-badge">
+                      <span class="badge"
+                        style="background: linear-gradient(135deg, var(--primary), var(--accent))">Pro</span>
+                    </div>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Growth Marketing Playbook</h3>
+                    <p class="resource-description">
+                      Advanced strategies for user acquisition, retention, and scaling. Data-driven approaches for 2026.
+                    </p>
+
+                    <div class="resource-meta">
+                      <div class="meta-item">
+                        <i class="ri-time-line"></i>
+                        <span>90 min read</span>
+                      </div>
+                      <div class="meta-item">
+                        <i class="ri-download-line"></i>
+                        <span>15K downloads</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="resource-footer">
+                    <a href="#" class="resource-cta">
+                      <i class="ri-download-line"></i>
+                      Download Guide
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Guide 4 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="resource-header">
+                    <div class="resource-icon">
+                      <i class="ri-team-line"></i>
+                    </div>
+                    <div class="resource-badge">
+                      <span class="badge bg-success">Free</span>
+                    </div>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Remote Team Handbook</h3>
+                    <p class="resource-description">
+                      Best practices for building and managing remote teams. Includes culture, productivity, and tools.
+                    </p>
+
+                    <div class="resource-meta">
+                      <div class="meta-item">
+                        <i class="ri-time-line"></i>
+                        <span>50 min read</span>
+                      </div>
+                      <div class="meta-item">
+                        <i class="ri-download-line"></i>
+                        <span>6K downloads</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="resource-footer">
+                    <a href="#" class="resource-cta">
+                      <i class="ri-book-open-line"></i>
+                      Read Handbook
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools Tab -->
+          <div class="tab-pane fade" id="tools" role="tabpanel" aria-labelledby="tools-tab" tabindex="0">
+            <div class="row g-4">
+              <!-- Tool 1 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="tool-icon">
+                    <i class="ri-calculator-line"></i>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Startup Cost Calculator</h3>
+                    <p class="resource-description">
+                      Estimate your startup costs and create a realistic budget. Includes funding requirements.
+                    </p>
+
+                    <div class="tool-features">
+                      <span class="feature">
+                        <i class="ri-check-line"></i>
+                        Budget Planning
+                      </span>
+                      <span class="feature">
+                        <i class="ri-check-line"></i>
+                        Funding Estimates
+                      </span>
+                    </div>
+                  </div>
+
+                  <button class="tool-cta">
+                    <i class="ri-external-link-line"></i>
+                    Open Calculator
+                  </button>
+                </div>
+              </div>
+
+              <!-- Tool 2 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="tool-icon">
+                    <i class="ri-presentation-line"></i>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Pitch Deck Generator</h3>
+                    <p class="resource-description">
+                      AI-powered tool to create investor-ready pitch decks in minutes.
+                    </p>
+
+                    <div class="tool-features">
+                      <span class="feature">
+                        <i class="ri-check-line"></i>
+                        AI Templates
+                      </span>
+                      <span class="feature">
+                        <i class="ri-check-line"></i>
+                        Export to PDF
+                      </span>
+                    </div>
+                  </div>
+
+                  <button class="tool-cta">
+                    <i class="ri-magic-line"></i>
+                    Generate Deck
+                  </button>
+                </div>
+              </div>
+
+              <!-- Tool 3 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="tool-icon">
+                    <i class="ri-line-chart-line"></i>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Market Research Tool</h3>
+                    <p class="resource-description">
+                      Analyze competitors, market size, and trends with our AI research assistant.
+                    </p>
+
+                    <div class="tool-features">
+                      <span class="feature">
+                        <i class="ri-check-line"></i>
+                        Competitor Analysis
+                      </span>
+                      <span class="feature">
+                        <i class="ri-check-line"></i>
+                        Market Trends
+                      </span>
+                    </div>
+                  </div>
+
+                  <button class="tool-cta">
+                    <i class="ri-search-line"></i>
+                    Start Research
+                  </button>
+                </div>
+              </div>
+
+              <!-- Tool 4 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="tool-icon">
+                    <i class="ri-file-text-line"></i>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Legal Document Generator</h3>
+                    <p class="resource-description">
+                      Create legal documents like NDAs, agreements, and terms of service instantly.
+                    </p>
+
+                    <div class="tool-features">
+                      <span class="feature">
+                        <i class="ri-check-line"></i>
+                        NDA Generator
+                      </span>
+                      <span class="feature">
+                        <i class="ri-check-line"></i>
+                        Terms of Service
+                      </span>
+                    </div>
+                  </div>
+
+                  <button class="tool-cta">
+                    <i class="ri-file-download-line"></i>
+                    Create Document
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Templates Tab -->
+          <div class="tab-pane fade" id="templates" role="tabpanel" aria-labelledby="templates-tab" tabindex="0">
+            <div class="row g-4">
+              <!-- Template 1 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="template-preview">
+                    <div class="preview-icon">
+                      <i class="ri-file-text-line"></i>
+                    </div>
+                    <div class="template-badge">Business Plan</div>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Business Plan Template</h3>
+                    <p class="resource-description">
+                      Complete business plan template with financial projections and market analysis.
+                    </p>
+
+                    <div class="resource-meta">
+                      <div class="meta-item">
+                        <i class="ri-file-word-line"></i>
+                        <span>Word, PDF</span>
+                      </div>
+                      <div class="meta-item">
+                        <i class="ri-download-line"></i>
+                        <span>10K+ downloads</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="template-actions">
+                    <button class="btn btn-primary btn-sm">
+                      <i class="ri-download-line"></i>
+                      Download
+                    </button>
+                    <button class="btn btn-outline-primary btn-sm">
+                      <i class="ri-eye-line"></i>
+                      Preview
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Template 2 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="template-preview">
+                    <div class="preview-icon">
+                      <i class="ri-presentation-line"></i>
+                    </div>
+                    <div class="template-badge">Pitch Deck</div>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Investor Pitch Deck</h3>
+                    <p class="resource-description">
+                      12-slide pitch deck template used by startups that raised $1M+.
+                    </p>
+
+                    <div class="resource-meta">
+                      <div class="meta-item">
+                        <i class="ri-slideshow-line"></i>
+                        <span>Keynote, PPT</span>
+                      </div>
+                      <div class="meta-item">
+                        <i class="ri-download-line"></i>
+                        <span>15K+ downloads</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="template-actions">
+                    <button class="btn btn-primary btn-sm">
+                      <i class="ri-download-line"></i>
+                      Download
+                    </button>
+                    <button class="btn btn-outline-primary btn-sm">
+                      <i class="ri-eye-line"></i>
+                      Preview
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Template 3 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="template-preview">
+                    <div class="preview-icon">
+                      <i class="ri-line-chart-line"></i>
+                    </div>
+                    <div class="template-badge">Financial Model</div>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Financial Model Template</h3>
+                    <p class="resource-description">
+                      Excel template for financial projections, revenue models, and cash flow analysis.
+                    </p>
+
+                    <div class="resource-meta">
+                      <div class="meta-item">
+                        <i class="ri-file-excel-line"></i>
+                        <span>Excel, Google Sheets</span>
+                      </div>
+                      <div class="meta-item">
+                        <i class="ri-download-line"></i>
+                        <span>8K+ downloads</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="template-actions">
+                    <button class="btn btn-primary btn-sm">
+                      <i class="ri-download-line"></i>
+                      Download
+                    </button>
+                    <button class="btn btn-outline-primary btn-sm">
+                      <i class="ri-eye-line"></i>
+                      Preview
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Template 4 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="template-preview">
+                    <div class="preview-icon">
+                      <i class="ri-user-add-line"></i>
+                    </div>
+                    <div class="template-badge">Hiring</div>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Hiring Kit Template</h3>
+                    <p class="resource-description">
+                      Complete hiring package including job descriptions, offer letters, and onboarding.
+                    </p>
+
+                    <div class="resource-meta">
+                      <div class="meta-item">
+                        <i class="ri-file-word-line"></i>
+                        <span>Word, PDF</span>
+                      </div>
+                      <div class="meta-item">
+                        <i class="ri-download-line"></i>
+                        <span>6K+ downloads</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="template-actions">
+                    <button class="btn btn-primary btn-sm">
+                      <i class="ri-download-line"></i>
+                      Download
+                    </button>
+                    <button class="btn btn-outline-primary btn-sm">
+                      <i class="ri-eye-line"></i>
+                      Preview
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Community Tab -->
+          <div class="tab-pane fade" id="community" role="tabpanel" aria-labelledby="community-tab" tabindex="0">
+            <div class="row g-4">
+              <!-- Community 1 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="community-header">
+                    <div class="community-icon">
+                      <i class="ri-discuss-line"></i>
+                    </div>
+                    <div class="community-members">
+                      <i class="ri-user-line"></i>
+                      <span>10K+ members</span>
+                    </div>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Founders Forum</h3>
+                    <p class="resource-description">
+                      Connect with fellow founders, share experiences, and get feedback on your startup ideas.
+                    </p>
+
+                    <div class="community-stats">
+                      <div class="stat">
+                        <i class="ri-message-3-line"></i>
+                        <span>500+ discussions</span>
+                      </div>
+                      <div class="stat">
+                        <i class="ri-time-line"></i>
+                        <span>24/7 active</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button class="community-cta">
+                    <i class="ri-login-box-line"></i>
+                    Join Community
+                  </button>
+                </div>
+              </div>
+
+              <!-- Community 2 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="community-header">
+                    <div class="community-icon">
+                      <i class="ri-video-line"></i>
+                    </div>
+                    <div class="community-members">
+                      <i class="ri-user-line"></i>
+                      <span>5K+ members</span>
+                    </div>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Weekly Webinars</h3>
+                    <p class="resource-description">
+                      Live sessions with successful founders, investors, and industry experts every week.
+                    </p>
+
+                    <div class="community-stats">
+                      <div class="stat">
+                        <i class="ri-calendar-line"></i>
+                        <span>Every Wednesday</span>
+                      </div>
+                      <div class="stat">
+                        <i class="ri-time-line"></i>
+                        <span>2 PM EST</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button class="community-cta">
+                    <i class="ri-calendar-line"></i>
+                    View Schedule
+                  </button>
+                </div>
+              </div>
+
+              <!-- Community 3 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="community-header">
+                    <div class="community-icon">
+                      <i class="ri-user-star-line"></i>
+                    </div>
+                    <div class="community-members">
+                      <i class="ri-user-line"></i>
+                      <span>500+ mentors</span>
+                    </div>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Mentorship Program</h3>
+                    <p class="resource-description">
+                      Get 1:1 mentorship from experienced founders and industry experts.
+                    </p>
+
+                    <div class="community-stats">
+                      <div class="stat">
+                        <i class="ri-award-line"></i>
+                        <span>Expert mentors</span>
+                      </div>
+                      <div class="stat">
+                        <i class="ri-time-line"></i>
+                        <span>Flexible scheduling</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button class="community-cta">
+                    <i class="ri-user-search-line"></i>
+                    Find a Mentor
+                  </button>
+                </div>
+              </div>
+
+              <!-- Community 4 -->
+              <div class="col-md-6 col-lg-3">
+                <div class="resource-card h-100">
+                  <div class="community-header">
+                    <div class="community-icon">
+                      <i class="ri-trophy-line"></i>
+                    </div>
+                    <div class="community-members">
+                      <i class="ri-user-line"></i>
+                      <span>1K+ startups</span>
+                    </div>
+                  </div>
+
+                  <div class="resource-content">
+                    <h3 class="resource-title">Startup Challenges</h3>
+                    <p class="resource-description">
+                      Compete in monthly challenges with cash prizes, mentorship, and investor exposure.
+                    </p>
+
+                    <div class="community-stats">
+                      <div class="stat">
+                        <i class="ri-medal-line"></i>
+                        <span>$50K+ prizes</span>
+                      </div>
+                      <div class="stat">
+                        <i class="ri-time-line"></i>
+                        <span>Monthly events</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button class="community-cta">
+                    <i class="ri-sword-line"></i>
+                    Join Challenge
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Newsletter Signup -->
+      <div class="newsletter-signup mt-5">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <div class="newsletter-content">
+              <div class="newsletter-icon">
+                <i class="ri-mail-send-line"></i>
+              </div>
+
+              <div class="newsletter-text">
+                <h3 class="newsletter-title">Get Weekly Startup Insights</h3>
+                <p class="newsletter-description">
+                  Join 50,000+ founders who receive our weekly newsletter with tips, resources, and success stories.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form class="newsletter-form">
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Enter your email address" required>
+                <button class="btn btn-primary" type="submit">
+                  <i class="ri-send-plane-line me-2"></i>
+                  Subscribe
+                </button>
+              </div>
+
+              <div class="form-note">
+                <i class="ri-shield-check-line text-success me-2"></i>
+                <small class="text-muted">We respect your privacy. Unsubscribe anytime.</small>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Final CTA -->
+      <div class="final-cta mt-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div class="cta-content mb-4">
+              <h2 class="cta-title">Ready to Start Your Journey?</h2>
+              <p class="cta-description">
+                Join thousands of successful founders who built their startups with StartUpX.
+              </p>
+            </div>
+
+            <div class="cta-actions">
+              <a href="#" class="btn btn-primary btn-lg me-3">
+                <i class="ri-rocket-2-line me-2"></i>
+                Start Free Trial
+              </a>
+              <a href="#" class="btn btn-outline-light btn-lg">
+                <i class="ri-calendar-line me-2"></i>
+                Book Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== FOOTER SECTION ====== -->
+  <footer class="footer">
+    <div class="container">
+      <!-- Main Footer Content -->
+      <div class="footer-main">
+        <div class="row g-5">
+          <!-- Company Info - Left Side -->
+          <div class="col-lg-4 col-md-12">
+            <div class="footer-brand">
+              <a class="footer-logo" href="/">
+                <div class="logo-icon">
+                  <svg width="28" height="32" viewBox="0 0 28 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 0L28 7.77778V23.3333L14 31.1111L0 23.3333V7.77778L14 0Z" fill="#7C3AED" />
+                    <path d="M13.9999 7L22.5554 12.3472V18.7639L13.9999 24.1111L5.44434 18.7639V12.3472L13.9999 7Z"
+                      fill="white" />
+                  </svg>
+                </div>
+                <span class="logo-text">StartUp<span class="logo-x">X</span></span>
+              </a>
+
+              <p class="footer-description">
+                The complete platform for modern startups. From idea validation to exit,
+                we provide everything you need to build, launch, and scale your business.
+              </p>
+
+              <div class="footer-contact">
+                <div class="contact-item">
+                  <i class="ri-mail-line"></i>
+                  <a href="mailto:hello@startupx.com">hello@startupx.com</a>
+                </div>
+                <div class="contact-item">
+                  <i class="ri-phone-line"></i>
+                  <a href="tel:+18005551234">+1 (800) 555-1234</a>
+                </div>
+                <div class="contact-item">
+                  <i class="ri-map-pin-line"></i>
+                  <span>548 Market St, San Francisco, CA 94104</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Links - 3 Columns Grid -->
+          <div class="col-lg-8">
+            <div class="row g-4">
+              <!-- Company Section - Home, Features, Templates, Team, Contact -->
+              <div class="col-md-4 col-6">
+                <div class="footer-links">
+                  <h3 class="footer-title">Company</h3>
+                  <ul class="footer-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#templates">Templates</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Resources Section - Pricing, Success, Resources -->
+              <div class="col-md-4 col-6">
+                <div class="footer-links">
+                  <h3 class="footer-title">Resources</h3>
+                  <ul class="footer-menu">
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#success">Success Stories</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="documentation/index.html">Documentation</a></li>
+                    <li><a href="#">Support</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Legal Section -->
+              <div class="col-md-4 col-6">
+                <div class="footer-links">
+                  <h3 class="footer-title">Legal</h3>
+                  <ul class="footer-menu">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">GDPR</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Newsletter Section -->
+      <div class="footer-newsletter">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="newsletter-content">
+              <i class="ri-mail-send-line"></i>
+              <div class="newsletter-text">
+                <h3 class="newsletter-title">Join 50,000+ founders</h3>
+                <p class="newsletter-description">
+                  Weekly insights on startup growth, funding, and product management.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <form class="newsletter-form">
+              <div class="input-group">
+                <input type="email" class="form-control" placeholder="Enter your email address" required>
+                <button class="btn btn-primary" type="submit">
+                  <i class="ri-send-plane-line"></i>
+                  Subscribe
+                </button>
+              </div>
+              <div class="form-note">
+                <i class="ri-shield-check-line"></i>
+                <span>No spam. Unsubscribe anytime.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="row align-items-center">
+          <div class="col-lg-4">
+            <div class="copyright">
+              © 2026 StartUpX, Inc. All rights reserved.
+            </div>
+            <!-- DESIGN BY CODEXA STUDIO -->
+            <div class="design-credit">
+              Design by <span class="design-studio">PriHarsh Design</span>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="ri-twitter-fill"></i></a>
+              <a href="#" class="social-link"><i class="ri-linkedin-fill"></i></a>
+              <a href="#" class="social-link"><i class="ri-github-fill"></i></a>
+              <a href="#" class="social-link"><i class="ri-discord-fill"></i></a>
+              <a href="#" class="social-link"><i class="ri-product-hunt-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="footer-badges">
+              <span class="badge"><i class="ri-shield-check-fill"></i> SOC 2</span>
+              <span class="badge"><i class="ri-lock-fill"></i> GDPR</span>
+              <span class="badge"><i class="ri-star-fill"></i> 4.9/5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ====== FOOTER SECTION ====== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
